@@ -1,0 +1,10 @@
+[Unit]
+Description={description}
+After=network.target
+[Service]
+User={user}
+Group={user}
+WorkingDirectory={work_dir}
+ExecStart={exec_start}
+[Install]
+WantedBy=multi-user.target

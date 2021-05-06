@@ -1,0 +1,5 @@
+config.py
+venv/*
+.idea/*
+work_dir/*
+**/__pycache__/*
